@@ -27,8 +27,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="">
-        <header className="bg-gray-900 flex pt-2 justify-between">
-          <Link href="/" className="logo text-white px-4 py-3 w-1/4">
+        <header className="bg-gray-900 flex sm:pt-2 justify-between px-4">
+          <Link href="/" className="logo text-white pt-2 pb-3 sm:block hidden">
             Free Videos
           </Link>
           <SearchBar />

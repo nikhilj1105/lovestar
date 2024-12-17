@@ -15,11 +15,11 @@ const SearchBar = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="search-bar w-1/4">
+    <form onSubmit={handleSubmit} className="search-bar sm:block hidden flex">
       <input
         type="text"
         placeholder="Search videos..."
-        className="search-input p-2 w-9/12 inline-block"
+        className="search-input p-2 inline-block"
         id="searchbar"
       />
       <button type="submit" className="search-button ml-4 p-2 bg-zinc-50 rounded">
