@@ -11,6 +11,7 @@ export default function Home() {
     return categories;
   }, [] as string[]);
 
+
   const categoryThumbnails = uniqueCategories.map(category => {
     const firstVideo = videos.find(video => video.category === category);
     const totalVideos = videos.filter(video => video.category === category).length;
