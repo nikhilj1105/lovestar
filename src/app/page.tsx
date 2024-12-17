@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="bg-gray-900 text-gray-100 min-h-screen">
       <div className="container mx-auto py-4 px-4">
-        <h1 className="text-2xl font-bold mb-8">Most Popular Categories</h1>
+        <h1 className="text-2xl font-bold mb-8">Most Popular Categoriessss</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {categoryThumbnails.map((category, index) => (
