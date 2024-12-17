@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import "./page.scss";
 
 import Link from "next/link";
